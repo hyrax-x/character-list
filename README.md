@@ -2,6 +2,8 @@
 
 https://youtube.com/playlist?list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw&si=Ry3N6OaskqtYClld
 
+https://youtu.be/I1V9YWqRIeI?si=6ZkOumCUTA-r7mKo
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

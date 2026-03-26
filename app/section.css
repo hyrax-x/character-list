@@ -1,0 +1,9 @@
+.section {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionContent {
+  max-width: 800px;
+}

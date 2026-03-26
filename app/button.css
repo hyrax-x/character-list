@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--background-color-dark) 0px 0px;
+  transition: 0.2s ease-in-out;
+  white-space: nowrap;
+  width: fit-content;
+}
+.button:hover {
+  background-color: var(--primary-color);
+  box-shadow: var(--background-color-dark) 5px 5px;
+  translate: -5px -5px;
+}
+.button:active {
+  box-shadow: var(--background-color-dark) -2px -2px;
+  translate: 2px 2px;
+  transition: 0.05s ease-in-out;
+}
+@media (max-width: 600px) {
+  .button {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+  }
+}

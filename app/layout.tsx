@@ -1,17 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Jura } from "next/font/google";
+import Hyrax from "next/font/local";
 import "./globals.css";
+import "./color.css";
+import "./font.css";
+import "./section.css";
+import "./button.css";
 import NavBar from "@/comps/NavBar";
 import Footer from "@/comps/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const jura = Jura({
+  variable: "--font-jura",
+  weight: "variable",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const hyrax = Hyrax({
+  src: "../fonts/hyrax.woff",
+  variable: "--font-hyrax",
 });
 
 export const metadata: Metadata = {
@@ -25,10 +31,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${jura.variable} ${hyrax.variable}`}>
       <body>
         <NavBar />
         {children}
+
         <Footer />
       </body>
     </html>

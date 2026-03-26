@@ -1,0 +1,22 @@
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iframe {
+  border-radius: 1rem;
+  width: 50%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+.tutorial {
+  background-color: var(--primary-color);
+}
+.tutorialContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
