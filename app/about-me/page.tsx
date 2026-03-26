@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div className={`sectionContent ${s.sectionContent}`}>
           <h2>Hi,</h2>
           <section className={`${s.body}`}>
-            <p>My name is Viet, I known as Hyrax-x on ditial platform.</p>
+            <p>My name is Viet, I known as Hyrax-x on digital platform.</p>
             <p>I enjoy bringing anything I can imagine to life.</p>
             <p>
               I am always eager to learn new things, especially in the fields
@@ -29,7 +29,7 @@ const AboutMe = () => {
         <div className={`sectionContent ${s.sectionContent}`}>
           <h2>My skill include:</h2>
           <ul className={`${s.body}`}>
-            <li>Front-end-deverlopment: HTML, CSS, JavaScript</li>
+            <li>Front-end-development: HTML, CSS, JavaScript</li>
             <li>
               Graphic design: Photoshop, Illustrator, InDesign, Affinity, Figma
             </li>
@@ -49,7 +49,7 @@ const AboutMe = () => {
               Native language Vietnamese, speak fluent English, currently
               studying Polish
             </p>
-            <p>Play Piano, E-gutar, Drum</p>
+            <p>Play Piano, E-guitar, Drum</p>
           </section>
 
           <section className={`${s.body}`}>
